@@ -80,7 +80,61 @@ const app = {
             name: 'Last Ending',
             singer: 'AOT',
             path: './asset/music/AOTEnding.mp3',
-            img: './asset/img/mikasa.jpg'
+            img: './asset/img/Mikasa.jpg'
+        },
+        {
+            name: 'Sparkle Theme',
+            singer: 'Honkai Star Rail',
+            path: './asset/music/Sparkle Theme.mp3',
+            img: './asset/img/sparkle.jpg'
+        },
+        {
+            name: 'Vivy-Fluorite Eyes Song',
+            singer: 'Vivy',
+            path: './asset/music/VivyFluorite Eyes Song.mp3',
+            img: './asset/img/vivy.jpg'
+        },
+        {
+            name: 'aLIEz Aldnoah.Zero',
+            singer: 'Sawano Hiroyuki',
+            path: './asset/music/Sawano Hiroyuki - aLIEz Aldnoah.Zero.mp3',
+            img: './asset/img/aldnoah-zero.jpg'
+        },
+        {
+            name: 'Re-ZeroEnding',
+            singer: 'reZero',
+            path: './asset/music/Re-ZeroEnding.mp3',
+            img: './asset/img/reZero.jpg'
+        },
+        {
+            name: 'Kimetsu no Yaiba OST',
+            singer: 'Kimetsu no Yaiba',
+            path: './asset/music/Kimetsu no Yaiba.mp3',
+            img: './asset/img/kimetsu.jpg'
+        },
+        {
+            name: 'Uchige Hanabi OST',
+            singer: 'DAOKO',
+            path: './asset/music/DAOKO.mp3',
+            img: './asset/img/DAOKO.jpg'
+        },
+        {
+            name: '86 EIGHTY-SIX - Ending',
+            singer: 'EIGHTY-SIX',
+            path: './asset/music/86 EIGHTY-SIX - Endingi.mp3',
+            img: './asset/img/86.jpg'
+        },
+        {
+            name: '86 EIGHTY SIX Ending 2',
+            singer: 'EIGHTY-SIX',
+            path: './asset/music/86 EIGHTY SIX Ending 2.mp3',
+            img: './asset/img/86.jpg'
+        },
+        {
+            name: 'Tháng tư là lời nói dối của em',
+            singer: 'Shigatsu wa kimi no uso',
+            path: './asset/music/Tháng tư là lời nói dối của em.mp3',
+            img: './asset/img/Shigatsu.jpg'
         },
     ],
 
@@ -252,7 +306,6 @@ const app = {
     },
 
     loadingCurrentSong: function(){
-
         heading.textContent = this.currentSong.name
         cdThumb.style.backgroundImage = `url(${this.currentSong.img})`
         audio.src = this.currentSong.path     
