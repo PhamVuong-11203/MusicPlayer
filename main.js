@@ -136,6 +136,12 @@ const app = {
             path: './asset/music/Tháng tư là lời nói dối của em.mp3',
             img: './asset/img/Shigatsu.jpg'
         },
+        {
+            name: 'unlasting',
+            singer: 'Sword Art Online',
+            path: './asset/music/Sword Art Onlineunlasting.mp3',
+            img: './asset/img/SAO.jpg'
+        },
     ],
 
     setConfig: function (key, value) {
