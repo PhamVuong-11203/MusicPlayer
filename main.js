@@ -80,7 +80,7 @@ const app = {
             name: 'Last Ending',
             singer: 'AOT',
             path: './asset/music/AOTEnding.mp3',
-            img: './asset/img/mikasa.jpg'
+            img: './asset/img/Mikasa.jpg'
         },
     ],
 
