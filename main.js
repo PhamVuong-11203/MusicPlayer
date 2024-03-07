@@ -142,6 +142,24 @@ const app = {
             path: './asset/music/Sword Art Onlineunlasting.mp3',
             img: './asset/img/SAO.jpg'
         },
+        {
+            name: 'bunny girl senpai-OP',
+            singer: 'Bunny girl senpai',
+            path: './asset/music/_bunny girl senpai.mp3',
+            img: './asset/img/bunnygirl.jpg'
+        },
+        {
+            name: 'Release My Soul',
+            singer: 'Guilty Crown',
+            path: './asset/music/Release My Soul.mp3',
+            img: './asset/img/inori.jpeg'
+        },
+        {
+            name: 'Scarborough Fair',
+            singer: 'Shuumatsu Nani Shitemasu ka',
+            path: './asset/music/Shuumatsu Nani Shitemasu ka - Scarborough Fair.mp3',
+            img: './asset/img/shuumatsu_nani_shitemasu_ka_drawn.jpg'
+        },
     ],
 
     setConfig: function (key, value) {
