@@ -145,7 +145,7 @@ const app = {
         {
             name: 'bunny girl senpai-OP',
             singer: 'Bunny girl senpai',
-            path: './asset/music/_bunny girl senpai.mp3',
+            path: './asset/music/bunny girl senpai.mp3',
             img: './asset/img/bunnygirl.jpg'
         },
         {
